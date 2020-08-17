@@ -1,0 +1,46 @@
+.menu__iconos ul {
+    list-style-type: none;
+}
+
+.menu__iconos ul li {
+    margin: 0px 10px;
+}
+
+.menu__iconos ul li a {
+    color: $colorblack;
+    opacity: 1;
+}
+
+.menu__iconos ul li a:hover {
+    opacity: 0.7;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar-light .navbar-toggler {
+    color: $colorblack;
+}
+
+.navbar-light .navbar-toggler:focus {
+    outline: 0;
+}
+
+.navbar-brand {
+    font-family: $futura;
+    font-size: $tam-logo;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.navbar-brand span {
+    font-size: $tam-logo-span;
+    position: absolute;
+    top: 5px;
+    right: -19px;
+    text-transform: uppercase;
+    letter-spacing: 0.045em;
+    font-weight: bold;
+}

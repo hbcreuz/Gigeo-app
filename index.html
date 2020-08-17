@@ -3,18 +3,137 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIGEO</title>
 
-    <!-- GOOGLE FONTS -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <!-- Navegador -->
 
+    <nav id="menu__principal" class="navbar navbar-expand-lg navbar-light bg-light bg-transparent">
+        <div class="container">
 
+            <a class="navbar-brand" href="#">
+      GIGEO
+      <span>Art</span>
+    </a>
+            <div class="contenedor__menu d-flex">
+                <div class="menu__iconos d-none d-lg-block">
+                    <ul class="p-0 m-0 d-flex justify-content-center align-items-center">
+                        <li class="menu-icono menu-item"><a href="http://"><i class="fas fa-search"></i></a></li>
+                        <li class="menu-icono menu-item"><a href="http://"><i class="fas fa-video"></i></a></li>
+                        <li class="menu-icono menu-item"><a href="http://"><i class="fas fa-plus"></i></a></li>
+                        <li class="menu-icono menu-item"><a href="http://"><i class="far fa-bell"></i></a></li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler border-0 py-0 d-block" type="button" data-toggle="collapsed" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+            </div>
+            <div class="collapse navbar-collapsed d-lg-none" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="header" class="container-fluid border-bottom banner__principal">
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="banner__principal-img w-100"></div>
+            </div>
+            <div class="col-12">
+                <div class="banner__principal-autor">
+                    <div class="container py-3">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center justify-content-md-between align-items-center">
+                                <div class="d-flex justify-content-between align-items-center banner__principal-autor-info">
+                                    <img src="assets/img/profile-image.png" class="rounded-circle banner__autor-img" alt="PerfilYuki" />
+                                    <div class="ml-4 banner__principal-autor-texto">
+                                        <h3>Yuki Mukami</h3>
+                                        <span>30.000 seguidores</span>
+                                    </div>
+                                </div>
+                                <div class="banner__principal-autor-botones d-none d-md-block">
+                                    <a class="btn btn-primary mr-2" href="">Mensaje</a>
+                                    <a class="btn btn-secondary" href="">Seguir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Videos -->
+    <section id="videos" class="container my-5">
+        <div class="row">
+            <div class="col-12 mb-sm-5 video">
+                <h1>Videos Populares</h1>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 video">
+                <img src="assets/img/image-1.png" class="img-fluid" />
+                <h2>Después de la vela - Yuki Mukami</h2>
+                <p>16k vistas - 1 semana atrás</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 video">
+                <img src="assets/img/image-2.png" class="img-fluid" />
+                <h2>Far Away - Yuki Mukami</h2>
+                <p>100k vistas - 1 mes atrás</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 video">
+                <img src="assets/img/image-3.png" class="img-fluid" />
+                <h2>City - Yuki Mukami</h2>
+                <p>20k vistas - 1 mes atrás</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 video">
+                <img src="assets/img/image-4.png" class="img-fluid" />
+                <h2>A Yuki Tale - Yuki Mukami</h2>
+                <p>1m vistas - 1 año atrás</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 video">
+                <img src="assets/img/image-5.png" class="img-fluid" />
+                <h2>Mapocho - Yuki Mukami</h2>
+                <p>100k vistas - 1 mes atrás</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 video">
+                <img src="assets/img/image-6.png" class="img-fluid" />
+                <h2>Luky Days - Yuki Mukami</h2>
+                <p>40k vistas - 3 meses atrás</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 video">
+                <img src="assets/img/image-7.png" class="img-fluid" />
+                <h2>30 days in My House</h2>
+                <p>10k vistas - 4 meses atrás</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 video">
+                <img src="assets/img/image-8.png" class="img-fluid" />
+                <h2>Santiago - Yuki Mukami</h2>
+                <p>40k vistas - 3 meses atrás</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/41b8753ddc.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
 </body>
 
 </html>

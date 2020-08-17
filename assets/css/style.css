@@ -1,9 +1,163 @@
-/*
-Para compilar el manifiesto desde la raiz de tu proyecto, abre el terminal 
-verifica que este en la raiz de tu proyecto con el comando 'ls' deberias ver
-assets index.html 
-->luego de verificar, colocaremos el comando 
-sass --watch assets/scss/main.scss:assets/css/style.css 
-*/
+@charset "UTF-8";
+/* COLORES */
+/* TIPOGRAFIAS */
+/* TAMAÑOS */
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 26px;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/futura-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/futura-webfont.woff") format("woff2"), url("../fonts/futura-webfont.woff") format("woff"), url("../fonts/futura-webfont.ttf") format("truetype"), url("../fonts/futura-webfont.svg") format("svg");
+  /* Legacy iOS */
+}
+.menu__iconos ul {
+  list-style-type: none;
+}
+
+.menu__iconos ul li {
+  margin: 0px 10px;
+}
+
+.menu__iconos ul li a {
+  color: black;
+  opacity: 1;
+}
+
+.menu__iconos ul li a:hover {
+  opacity: 0.7;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.navbar-light .navbar-toggler {
+  color: black;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: 0;
+}
+
+.navbar-brand {
+  font-family: "Futura", sans-serif;
+  font-size: 31px;
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.navbar-brand span {
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  right: -19px;
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
+  font-weight: bold;
+}
+
+#header .banner__principal-img {
+  background-image: url("../../assets/img/image-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  display: block;
+  background-size: cover;
+}
+
+#header .banner__autor-img {
+  width: 50px;
+  height: 50px;
+}
+
+#header .banner__principal-autor-texto h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+#header .banner__principal-autor-texto span {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 480px) {
+  #header .banner__principal-img {
+    height: 110px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #header .banner__principal-img {
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #menu__principal {
+    padding: 0px 14%;
+  }
+}
+#videos img {
+  margin-bottom: 15px;
+}
+
+#videos h2 {
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+#videos p {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  #videos {
+    padding: 0px 14%;
+  }
+
+  #videos .video {
+    margin-bottom: 30px;
+  }
+}
+.btn {
+  border-radius: 0px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  background-color: #6fe4ff;
+  border-color: #6fe4ff;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  opacity: 0.8;
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+  background-color: #ff8989;
+  border-color: #ff8989;
+}
 
 /*# sourceMappingURL=style.css.map */

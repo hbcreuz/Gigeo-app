@@ -1,0 +1,24 @@
+.btn {
+    border-radius: 0px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: $colorcian;
+    border-color: $colorcian;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    opacity: 0.8;
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+    background-color: $colorrojo;
+    border-color: $colorrojo;
+}
